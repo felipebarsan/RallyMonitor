@@ -1,0 +1,37 @@
+Criar um schema nome rally
+CREATE DATABASE `rally` 
+
+criar tabela "carros"
+CREATE TABLE `carros` (
+  `idcarro` int(11) NOT NULL,
+  `carromarca` varchar(45) DEFAULT NULL,
+  `carronumero` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`idcarro`)
+)
+
+criar tabela equipes
+
+CREATE TABLE `equipes` (
+  `idequipe` int(11) NOT NULL,
+  `equipenome` varchar(45) DEFAULT NULL,
+  `equipenumero` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`idequipe`)
+)
+
+criar tabela pilotos
+
+CREATE TABLE `pilotos` (
+  `idpiloto` int(11) NOT NULL,
+  `pilotonome` varchar(45) DEFAULT NULL,
+  `pilotoposicao` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`idpiloto`)
+)
+
+criar tabela pistas
+
+CREATE TABLE `pistas` (
+  `idpista` int(11) NOT NULL,
+  `pistalocal` varchar(45) DEFAULT NULL,
+  `pistanome` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`idpista`)
+)
