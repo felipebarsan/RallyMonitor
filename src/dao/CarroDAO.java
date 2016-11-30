@@ -5,13 +5,14 @@ public class CarroDAO {
 /*
  * 
  * 
- *  select que retorna lista de carros	
+select que retorna lista de carros	
 	SELECT `carros`.`idcarro`,
     `carros`.`carromarca`,
     `carros`.`carronumero`
 FROM `rally`.`carros`;
 
- insert
+insert
+ 
  * INSERT INTO `rally`.`carros`
 (`idcarro`,
 `carromarca`,
@@ -22,6 +23,7 @@ VALUES
 <{carronumero: }>);
 
 update
+
 UPDATE `rally`.`carros`
 SET
 `idcarro` = <{idcarro: }>,
@@ -29,7 +31,7 @@ SET
 `carronumero` = <{carronumero: }>
 WHERE `idcarro` = <{expr}>;
  
- deletar
+delete
  
  DELETE FROM `rally`.`carros`
 WHERE <{where_expression}>;

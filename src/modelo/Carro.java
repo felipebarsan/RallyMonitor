@@ -1,5 +1,6 @@
 package modelo;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -7,10 +8,12 @@ import javax.persistence.Id;
 @Entity
 public class Carro {
 		
-	@Id
+	@Id // é a id do 
 	@GeneratedValue
 	private int idCarro;
+	@Column
 	private String marcaCarro;
+	@Column
 	private int numeroCarro;
 	
 	public int getIdCarro() {
