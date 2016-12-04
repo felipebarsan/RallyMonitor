@@ -1,7 +1,10 @@
 package dao;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
 
 import java.util.List;
-
+@SessionScoped
+@ManagedBean
 public interface InterfaceDAO {
 	
 	public void save(Object bean);
