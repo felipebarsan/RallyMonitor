@@ -8,7 +8,6 @@
 		
 		<class>modelo.Piloto</class>
 		<class>modelo.Pista</class>
-		<class>modelo.Carro</class>
 		<class>modelo.Equipe</class>
 		
 	<properties>
