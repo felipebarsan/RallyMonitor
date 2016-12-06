@@ -7,15 +7,15 @@ import javax.persistence.Id;
 
 @Entity
 public class Carro {
-		
-	@Id // é a id do 
+
+	@Id // é a id do
 	@GeneratedValue
 	private int idCarro;
 	@Column
 	private String marcaCarro;
 	@Column
 	private int numeroCarro;
-	
+
 	public int getIdCarro() {
 		return idCarro;
 	}
@@ -41,7 +41,6 @@ public class Carro {
 	}
 
 	public Carro() {
-	
+
 	}
 }
-

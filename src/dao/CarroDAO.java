@@ -32,7 +32,7 @@ UPDATE `rally`.`carros`
 SET
 `idcarro` = <{idcarro: }>,
 `carromarca` = <{carromarca: }>,
-`carronumero` = <{carronumero: }>
+`carronumero` = <{carronumero: }> 
 WHERE `idcarro` = <{expr}>;
  
 delete
