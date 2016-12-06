@@ -14,7 +14,7 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.html</welcome-file>
   </welcome-file-list>
-  
+ 
   	<servlet>
   		<servlet-name>FacesServlet</servlet-name>
   	    <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
@@ -23,7 +23,7 @@
   	
   	<servlet-mapping>
   		<servlet-name>FacesServlet</servlet-name>
-  		<url-pattern>*.faces</url-pattern>
+  		<url-pattern>*.xhtml</url-pattern>
    </servlet-mapping>
    
   	<context-param>

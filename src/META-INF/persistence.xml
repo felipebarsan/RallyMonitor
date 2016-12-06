@@ -6,6 +6,7 @@
 		<jar-file>slf4j-api-1.6.1.jar</jar-file>
 		<jar-file>jta-1.1.jar</jar-file>
 		
+		<class>modelo.Carro</class>
 		<class>modelo.Piloto</class>
 		<class>modelo.Pista</class>
 		<class>modelo.Equipe</class>
