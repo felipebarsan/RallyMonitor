@@ -1,4 +1,4 @@
-package dao;
+package br.com.dao;
 
 import java.util.List;
 import org.hibernate.Query;
