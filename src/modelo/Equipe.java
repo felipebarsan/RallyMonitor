@@ -1,17 +1,19 @@
-package rallyModel;
+package modelo;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-
 @Entity
-public class equipe {
+public class Equipe {
 		
 	@Id
 	@GeneratedValue
 	private int idEquipe;
+	@Column
 	private String nomeEquipe;
+	@Column
 	private int numeroEquipe;
 	public int getIdEquipe() {
 		return idEquipe;
@@ -31,10 +33,8 @@ public class equipe {
 	public void setNumeroEquipe(int numeroEquipe) {
 		this.numeroEquipe = numeroEquipe;
 	}
-	public equipe() {
+	public Equipe() {
 		
 		// TODO Auto-generated constructor stub
 	}
-	
-
 }

@@ -1,10 +1,8 @@
-package rallyModel;
-
+package modelo;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-
 
 @Entity
 public class Pista {
@@ -33,8 +31,7 @@ public class Pista {
 	public void setLocalPista(String localPista) {
 		this.localPista = localPista;
 	}
+	
 	public Pista() {
-		
-		// TODO Auto-generated constructor stub
 	}
 }

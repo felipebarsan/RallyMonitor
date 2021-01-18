@@ -1,18 +1,21 @@
-package rallyModel;
+package modelo;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-
 @Entity
-public class carro {
+public class Carro {
 		
 	@Id
 	@GeneratedValue
-	private int idCarro;
-	private String marcaCarro;
-	private int numeroCarro;
+	@Column
+	private int 	idCarro;
+	@Column
+	private String 	marcaCarro;
+	@Column
+	private int 	numeroCarro;
 	
 	public int getIdCarro() {
 		return idCarro;
@@ -38,10 +41,8 @@ public class carro {
 		this.numeroCarro = numeroCarro;
 	}
 
-	public carro() {
+	public Carro() {
 	
-		// TODO Auto-generated constructor stub
 	}
-
 }
 
